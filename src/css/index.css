@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0 40px 0 40px;
+  font-family: sans-serif;
+  background-color: white;
+}
+
+
+
+.tiles{
+  border: 1px solid #cfd1d1;
+  height:280px;
+  width:232px;
+  margin:10px 10px 10px 10px;
+  padding:0 0 10px 0;
+  background-color:#f3f3f3;
+  float:left;
+  color:black;
+}
+
+.tiles:hover img {
+  opacity: 0.3;
+}
+
+.tiles h3{
+  height:35px;
+}
+
+.tiles .name{
+  color:grey;
+  font-size: 13px;
+
+}
+
+.input-section input{
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.description{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tiles img{
+  height:230px;
+  width:230px
+}
+
+
+
+.fields{
+  list-style: none;
+  display: inline-flex;
+  margin-left: -56px;
+}
+
+.field-item{
+  padding-left:10px;
+}
+
+
+
+.user-details{
+  position: relative;
+  margin: 200px auto;
+  padding: 0 40px 0 0;
+  width:700px;
+  background-color: #f2f2f2;
+  border: 1px solid #cfd1d1;
+  border-radius: 10px;
+  height:315px;
+  -webkit-box-shadow: 1px 2px 30px 2px rgba(148,145,148,1);
+  -moz-box-shadow: 1px 2px 30px 2px rgba(148,145,148,1);
+  box-shadow: 3px 2px 20px 2px rgb(209, 207, 209);
+}
+
+.user-details img{
+  margin-top: -5px;
+  margin-left: -2px;
+  border-radius: 10px;
+  height:325px;
+  width:325px;
+  -webkit-box-shadow: 1px 5px 16px 2px rgba(153,153,153,1);
+  -moz-box-shadow: 1px 5px 16px 2px rgba(153,153,153,1);
+  box-shadow: 1px 5px 16px 2px rgba(153,153,153,1);
+}
+
+.user-details .image-section{
+  float:left;
+  height:325px;
+  width:325px;
+  
+}
+
+.user-details .details-section .name{
+  font-weight: bold;
+  font-size:20px;
+}
+
+.stats .col-1,.stats .col-2, .stats .col-3{
+  margin-top: 75px;
+  width: 120px;
+  float: left;
+}
+.stats .title{
+  font-size:15px;
+  color:grey;
+}
+
+.stats .value{
+  padding-top:5px;
+  font-size:25px;
+}
+
+.loader{
+  margin: 200px auto;
+  width:300px;
+  height:300px
+
+}
+
+.user-details img.img-back{
+  position: absolute;
+  top: -44px;
+  left: 5px;
+  width: 50px;
+  height: 35px;
+}
+
+
+
